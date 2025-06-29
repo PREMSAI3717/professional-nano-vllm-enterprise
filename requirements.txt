@@ -1,0 +1,55 @@
+# Professional Nano-LLM Engine - Dependencies
+
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+numpy>=1.24.0
+pyyaml>=6.0
+requests>=2.31.0
+
+# GPU and CUDA support
+accelerate>=0.20.0
+bitsandbytes>=0.40.0
+
+# Development dependencies
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+pre-commit>=3.3.0
+
+# Monitoring dependencies  
+prometheus-client>=0.17.0
+psutil>=5.9.0
+grafana-api>=1.0.3
+
+# Security dependencies
+cryptography>=40.0.0
+python-jose>=3.3.0
+passlib>=1.7.4
+python-multipart>=0.0.6
+
+# Database dependencies
+sqlalchemy>=2.0.0
+alembic>=1.11.0
+redis>=4.5.0
+
+# API documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.2.0
+
+# Utilities
+click>=8.1.0
+rich>=13.0.0
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Optional: Production deployment
+gunicorn>=20.1.0
+docker>=6.1.0
+kubernetes>=26.1.0
